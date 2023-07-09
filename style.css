@@ -204,3 +204,70 @@ header{
 }
 
 /* End Header Section */
+
+/* Start MODERN DIGITAL AGENCY */
+
+section{
+    padding: 70px 0;
+}
+
+#digital-agency{
+    /* height: 630px;
+    width: 100vh; */
+}
+
+.section-heading{
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.section-heading::after{
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #18CA18;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.section-heading span{
+    color: #18CA18;
+}
+
+.section-sub-heading{
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+.agency-box-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    padding: 0px 70px;
+}
+
+.agency-box{
+    display: flex;
+    align-items: center;
+}
+
+.agency-box-icon{
+    flex-basis: 30%;
+}
+
+.agency-box-icon i{
+    font-size: 40px;
+    color: #18CA18;
+}
+
+.agency-box-dec{
+
+}
+
+/* End  MODERN DIGITAL AGENCY*/
