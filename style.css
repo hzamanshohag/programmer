@@ -266,8 +266,42 @@ section{
     color: #18CA18;
 }
 
-.agency-box-dec{
-
+.agency-box-dec h3{
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 /* End  MODERN DIGITAL AGENCY*/
+
+/* Happy Clients */
+
+#our-clients{
+    background-image: linear-gradient(#000000a2,#000000a2),url(img/slider2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.our-clients-wrapper{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.our-clients-feedback{
+    flex-basis: 22%;
+    background-color: #18ca1882;
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+
+}
+
+.our-clients-feedback h2{
+    font-size: 50px;
+}
+
+.our-clients-feedback span{
+
+}
